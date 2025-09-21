@@ -25,7 +25,7 @@ import pandas as pd
 #   'data/' -> "entre na pasta data"
 #   'games.xlsx' -> "leia este arquivo"
 # O resultado (nossa tabela de dados) será armazenado na variável 'df' (DataFrame).
-caminho_arquivo = '../data/games.xlsx'
+caminho_arquivo = './data/games.xlsx'
 df = pd.read_excel(caminho_arquivo)
 
 # Passo 3: Explorar os dados com as funções principais
